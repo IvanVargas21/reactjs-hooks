@@ -4,11 +4,22 @@
 import {useState} from 'react'
 function Counter(){
     const [count, setCount]= useState(0);
+    
     const increment = () =>{
-        setCount(count + 1)
+        //naming convention
+        //prev(StateVariable)
+        //first letter of our state variable
+        setCount(prevCount => prevCount + 1)
+        //taking the pending state to calculate the next state
+        //not the current state
+        setCount(prevCount => prevCount + 1)
+        setCount(prevCount => prevCount + 1)
     }
+
     const decrement = () =>{
-        setCount(count - 1)
+        setCount(c => c - 1)
+        setCount(c => c - 1)
+        setCount(c => c - 1)
     }
     const reset = () => {
         setCount(0)

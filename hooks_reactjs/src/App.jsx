@@ -1,7 +1,7 @@
 import { useState } from 'react';
 // import MyComponent from './concepts/onchange/MyComponent.jsx'
-// import Counter from './concepts/state/Counter.jsx'
-import ColorPicker from './concepts/colorpicker/ColorPicker';
+import Counter from './concepts/state/Counter.jsx'
+// import ColorPicker from './concepts/colorpicker/ColorPicker';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       {/* <MyComponent/> */}
-      {/* < Counter /> */}
+      < Counter />
       {/* <MyComponent/> */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
     </>
   )
 }
