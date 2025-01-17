@@ -1,4 +1,4 @@
-import MyComponent from './concepts/updateArrayOfObjectsInState/MyComponent.jsx'
+import ComponentA from './concepts/useContext/ComponentA';
 
 import { useState } from 'react';
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <MyComponent />
+      <ComponentA />
     </>
   )
 }
