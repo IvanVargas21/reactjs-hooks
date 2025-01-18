@@ -1,5 +1,8 @@
 import ComponentD from "./ComponentD";
 import { useContext } from "react";
+//context object that was created using createContext() in Component A
+//an object that react uses to track the shared data(context)
+//It inlcudes the Provider (UserContext.Provider) and the consumer (UserContext.consumer)
 import { UserContext } from "./ComponentA";
 
 function ComponentC(){

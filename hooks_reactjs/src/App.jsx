@@ -1,13 +1,13 @@
-import ComponentA from './concepts/useContext/ComponentA';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import NewComponent from './concepts/useEffect/NewComponent';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <ComponentA />
+      <NewComponent />
     </>
   )
 }
